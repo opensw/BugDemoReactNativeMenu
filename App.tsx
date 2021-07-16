@@ -6,14 +6,16 @@
 import { MenuView } from '@react-native-menu/menu';
 import React, { useCallback } from 'react';
 import {
-  SafeAreaView,
   ScrollView,
   StyleSheet,
   Text,
   TouchableOpacity,
   View,
+  // SafeAreaView,
 } from 'react-native';
 import { Icon } from 'react-native-elements';
+
+import {SafeAreaView} from 'react-native-safe-area-context';
 
 import Col from './demo/Col';
 
